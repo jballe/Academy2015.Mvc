@@ -11,7 +11,10 @@ var slideshow = Reveal.initialize({
         { src: 'reveal-plugins/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 
         // Speaker notes
-        { src: 'reveal-plugins/notes/notes.js', async: true }
+        { src: 'reveal-plugins/notes/notes.js', async: true },
+		
+		// UML
+		{ src: 'reveal-plugins/nomnoml-plugin.js', async: true }
 	]
 });
 
