@@ -1,0 +1,28 @@
+{
+  "name": "codehouse-academy-mvc-presentation",
+  "version": "1.0.0",
+  "description": "Presentation for Codehouse Academy MVC session",
+  "main": "dist/index.html",
+  "dependencies": {
+    "nomnoml": "^0.0.3"
+  },
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-file-insert": "^1.0.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-webserver": "^0.9.1",
+    "main-bower-files": "^2.9.0",
+    "stream-series": "^0.1.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesper Balle, jba@codehouse.com",
+  "license": "ISC"
+}

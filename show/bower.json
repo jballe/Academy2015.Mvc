@@ -1,0 +1,26 @@
+{
+  "name": "codehouse-academy-mvc-presentation",
+  "description": "Presentation for Codehouse Academy MVC session",
+  "main": "dist/index.html",
+  "authors": [
+    "Jesper Balle",
+    "jba@codehouse.com"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jballe/Academy2015.Mvc",
+  "moduleType": [
+    "globals"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~3.10.1",
+    "reveal.js": "https://github.com/hakimel/reveal.js.git#master"
+  }
+}
