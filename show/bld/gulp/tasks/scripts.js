@@ -14,7 +14,6 @@ gulp.task('javascript', function() {
 	
 	return gulp.src(files)
 		.pipe(sourcemaps.init())
-		// do stuff
 		.pipe(concat('app.js'))
 		.pipe(sourcemaps.write('./'))
 		.pipe(gulp.dest('./dist'));
@@ -22,8 +21,8 @@ gulp.task('javascript', function() {
 
 gulp.task('reveal-plugins', function() {
 	return gulp.src([
-			'bower_components/reveal.js/plugin/**/*.js',
+			'bower_components/reveal.js/plugin/**/*.*',
 			'src/scripts/reveal-plugins/**/*.js'
 	])
-	.pipe(gulp.dest('./dist/reveal-plugins'));
+	.pipe(gulp.dest('./dist/plugin'));
 });

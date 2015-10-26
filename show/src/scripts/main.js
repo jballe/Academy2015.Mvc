@@ -4,17 +4,17 @@ var slideshow = Reveal.initialize({
 	transition: 'fade',
 	dependencies: [
 		// Interpret Markdown in <section> elements
-        { src: 'reveal-plugins/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-        { src: 'reveal-plugins/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 
         // Syntax highlight for <code> elements
-        { src: 'reveal-plugins/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 
         // Speaker notes
-        { src: 'reveal-plugins/notes/notes.js', async: true },
+        { src: 'plugin/notes/notes.js', async: true },
 		
 		// UML
-		{ src: 'reveal-plugins/nomnoml-plugin.js', async: true }
+		{ src: 'plugin/nomnoml-plugin.js', async: true }
 	]
 });
 
